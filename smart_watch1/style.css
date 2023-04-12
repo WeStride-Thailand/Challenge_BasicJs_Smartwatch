@@ -1,0 +1,175 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Arial', Arial, sans-serif; /*Montserrat, 'Source Sans Pro';*/
+  }
+  
+  nav {
+    text-align: center;
+    background-color: black;
+    width: 100%;
+  }
+  
+  header {
+    height: 80px;
+    background-color: #ea5b3d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.25rem;
+    color: #ffffff;
+  }
+  
+  #logo {
+    margin: 0 auto;
+    height: 60px;
+    width: 160px;
+  }
+  
+  .img-wrapper {
+    display: inline-block;
+  }
+  
+  #watch {
+    margin: 0 auto;
+    height: 300px;
+    width: 300px;
+  }
+  
+  .main {
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    margin: 0px auto;
+    padding: 24px;
+    justify-content: center;
+  }
+  
+  #title-wrapper {
+    padding: 0 24px;
+  }
+  
+  #desc {
+    color: rgb(116, 109, 109);
+  }
+  
+  #heartRate,
+  #time-text {
+    margin: 0;
+    padding: 0 24px;
+  }
+  
+  #heartRate {
+    display: none;
+  }
+  
+  #color-wrapper {
+    padding: 0 24px;
+  }
+  
+  #features-wrapper {
+    padding: 0 24px;
+  }
+  
+  #color-1,
+  #color-2,
+  #color-3,
+  #color-4 {
+    cursor: pointer;
+    height: 40px;
+    width: 50px;
+    border: none;
+    border-radius: 8px;
+  }
+  
+  #color-1 {
+    background-color: #23211f;
+  }
+  
+  #color-2 {
+    background-color: #ca3d22;
+  }
+  
+  #color-3 {
+    background-color: #565681;
+  }
+  
+  #color-4 {
+    background-color: #e9c7be;
+  }
+  
+  #time,
+  #heart-rate {
+    padding: 8px;
+    border: none;
+    border-radius: 8px;
+  }
+  
+  #buynow-wrapper {
+    padding: 0 24px;
+  }
+  
+  #action-button {
+    margin-top: 20px;
+    padding: 0 24px;
+  }
+  
+  #action-button > #add-cart,
+  #action-button > #buy {
+    cursor: pointer;
+    height: 40px;
+    width: 150px;
+    padding: 8px;
+    border: none;
+    border-radius: 8px;
+  }
+  #buy {
+    color: #ffffff;
+    background-color: orangered;
+  }
+  
+  @media only screen and (max-width: 610px) {
+    .img-wrapper {
+      display: inline-block;
+      width: 100%;
+    }
+  
+    #watch {
+      margin: 0 20%;
+      height: 300px;
+      width: 300px;
+      margin-bottom: 18px;
+    }
+  
+    .main {
+      display: flex;
+      flex-direction: column;
+      text-align: left;
+      margin: 0px auto;
+      padding: 24px;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .img-wrapper {
+      display: inline-block;
+      width: 100%;
+    }
+  
+    #watch {
+      margin: 0 10%;
+      height: 280px;
+      width: 280px;
+      margin-bottom: 18px;
+    }
+  
+    .main {
+      display: flex;
+      flex-direction: column;
+      text-align: left;
+      margin: 0px auto;
+      padding: 24px;
+    }
+  }
+  
